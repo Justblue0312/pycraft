@@ -32,7 +32,7 @@ class Import[T: BaseNode](BaseNode):
 
 @dataclass
 class ImportFrom[T: BaseNode](BaseNode):
-    """Represents a Python 'from katze.. import katze..' statement.
+    """Represents a Python 'from ... import ...' statement.
 
     This corresponds to the 'from' keyword in Python, used to import specific
     items from a module directly into the current namespace.

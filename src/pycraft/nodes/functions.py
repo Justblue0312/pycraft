@@ -20,7 +20,7 @@ class Arg[T: BaseNode](BaseNode):
 
     Example:
         def func(x, y: int, z=default):
-            katze..
+            ...
 
     Attributes:
         arg: The argument name
@@ -41,7 +41,7 @@ class Arguments[T: BaseNode, A: Arg](BaseNode):
 
     Example:
         def func(a, b, *args, c, d=1, **kwargs):
-            katze..
+            ...
 
     Attributes:
         args: List of regular arguments
@@ -156,7 +156,7 @@ class TypeParam[T: BaseNode](BaseNode):
 
     Example:
         class Stack[T]:
-            katze..
+            ...
 
         def identity[T](x: T) -> T:
             return x

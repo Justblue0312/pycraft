@@ -109,7 +109,7 @@ class Builder:
 
     # Convenience helpers
     def import_from(self, module: str, names: list[str], level: int = 0) -> None:
-        """Add an 'from katze.. import katze..' statement.
+        """Add an 'from ... import ...' statement.
 
         Args:
             module: Module name to import from
