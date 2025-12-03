@@ -8,7 +8,7 @@ Pycraft provides a fluent and intuitive builder API to programmatically construc
 
 With pip:
 ```bash
-pip install https://github.com/Justblue0312/pycraft
+pip install https://github.com/Justblue0312/pycraft.git
 ```
 
 With uv:
